@@ -1,18 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!-- added metadata tags to:
-    1. http-equiv was added to set an HTTP header for content
-    2. name="description" and "keywords" allowed me to define a description and keywords for search engines & SEO
-    3. name="viewport" was added so the page would be scaled to the size of the device used. -->
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <meta name="description" content="Horiseon offers solutions for search engine optimization, online reputation management and social media marketing">
-    <meta name="keywords" content="Search Engine Optimization SEO Reputation Social Media Marketing">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horiseon Digital Solutions</title>
+    <title>website</title>
 </head>
 
 <body>
@@ -32,57 +24,24 @@
             </ul>
         </div>
     </div>
-
-    <!-- ***** How to add alt text to this div class=hero, which is the background img digital-marketing-meeting.jpg?
-    Ok so I created an image tag in the div below instead of adding the image in CSS so that I could add alt text.
-    I removed "class="hero"" from the div, added it to the img tag so that the image could be referred to in CSS. -->
-    <div>
-        <img src="./assets/images/digital-marketing-meeting.jpg"
-            alt="Four colleagues participating in a digital marketing meeting"
-            class="hero" />
-            <!-- width="100%"
-            height="100%" /> -->
-    </div>
+    <div class="hero"></div>
     <div class="content">
-        
-        <!-- adding an id attribute to the div tag below fixed the "Search Engine Optimization" link above -->
-        <div id="search-engine-optimization" class="search-engine-optimization">
-            
-            <!-- In the image tag below I added an alt attribute to provide a description of the image. 
-                This enhances accessibility for everyone, for example, if they use a screen reader, or if the image does not load. 
-                ***** In addition, class tags were removed from the div tags below as they are redundant (ID is enough here for CSS to target)
-                ***** ??? Class attributes were also removed from image tags as this is done in CSS -->
-            <img 
-                src="./assets/images/search-engine-optimization.jpg" 
-                alt="A notebook with cartoon scribbles on how to optimize SEO sits next to a black coffee" 
-                class="float-left" />
-
+        <div class="search-engine-optimization">
+            <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
         <div id="online-reputation-management" class="online-reputation-management">
-            
-            <!-- In img tag, added an alt attribute to provide a description of the image. -->
-            <img 
-                src="./assets/images/online-reputation-management.jpg" 
-                alt="A laptop screen is displaying a bar chart graphing a steady increase in reputation"
-                class="float-right" />
-           
+            <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
         <div id="social-media-marketing" class="social-media-marketing">
-
-            <!-- In img tag, added an alt attribute to provide a description of the image. -->
-            <img 
-                src="./assets/images/social-media-marketing.jpg" 
-                alt= "Colleagues sitting around a table brainstorming ways to market on social media" 
-                class="float-left" />
-          
+            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
@@ -92,44 +51,26 @@
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
-
-            <!-- In img tag, added an alt attribute to provide a description of the image. -->
-            <img 
-                src="./assets/images/lead-generation.png"
-                alt="Black icon showing a cog turning into money" />
-             
+            <img src="./assets/images/lead-generation.png" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
         <div class="benefit-brand">
             <h3>Brand Awareness</h3>
-
-            <!-- In img tag, added an alt attribute to provide a description of the image. -->
-            <img 
-                src="./assets/images/brand-awareness.png"
-                alt="Black icon of a lightbulb emitting light while wearing a suit" />
-         
+            <img src="./assets/images/brand-awareness.png" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
         <div class="benefit-cost">
             <h3>Cost Management</h3>
-
-            <!-- In img tag, added an alt attribute to provide a description of the image.
-            Image closing tag was also removed as the image tag is self-closing with: /> -->
-            <img 
-                src="./assets/images/cost-management.png"
-                alt="Black icon of a cog with three monies in front of it" />
-            
+            <img src="./assets/images/cost-management.png"></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
     </div>
-
-    <!-- ***** Should footer be class or ID? and in CSS, does . mean class and # mean footer? -->
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
