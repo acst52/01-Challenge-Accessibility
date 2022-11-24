@@ -16,9 +16,10 @@ The second thing I tackled was the CSS file. First, I reordered it to compliment
 
 As you can see from the screen snips below, the website integrity is maintained:
 
-![Screenshot of Horiseon webpage](01-HTML-Git-CSS\02-Challenge\Develop\assets\images\Horiseon-snip-1.jpg)
+![Horiseon-snip-1](https://user-images.githubusercontent.com/116177485/203861795-1f6b0929-9cba-43c0-9b19-821fcb1ea4b3.jpg)
+![Horiseon-snip-2](https://user-images.githubusercontent.com/116177485/203861834-d46e0f35-4b87-4822-910f-19c9dccddb85.jpg)
 
-![Screenshot of Horiseon webpage](01-HTML-Git-CSS\02-Challenge\Develop\assets\images\Horiseon-snip-2.jpg)
+You can compare it to the deployed website link, which is here: *****
 
 ## Acceptance Criteria 
 
