@@ -24,9 +24,13 @@ You can compare it to my deployed website link, which is [here](https://acst52.g
 ## Acceptance Criteria 
 
 Is the code cleaner? Maybe. It is shorter. Kind-of... I did add a few meta tags to the header of the html document for SEO purposes. Regarding the rest of the acceptance criteria for this challenge, 
-    - Elements follow a logical structure independent of styling and positioning, yes
-    - Icon and image elements have alt attributes, yes
-    - Heading attributes fall in sequential order, yes
-    - Title element is concise and descriptive, yes
 
-## Thanks for reading!
+[x] Elements follow a logical structure independent of styling and positioning
+
+[x] Icon and image elements have alt attributes
+
+[x] Heading attributes fall in sequential order
+
+[x] Title element is concise and descriptive
+
+### Thanks for reading!
