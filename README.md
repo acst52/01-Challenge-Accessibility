@@ -8,28 +8,24 @@ Hello! Welcome to my first ever README file, hopefully of many. Here you will sk
 
 ## Changes Made
 
-This week's challenge was to refactor an existing webpage in order to make it more accessible and to improve it's SEO; curious as it was a website for an agency that claims they can improve your SEO. I guess that's none of my business. 
+This week's challenge was to refactor an existing webpage in order to make it more accessible, improve it's SEO, and better the codebase... while leaving the page's appearance unchanged.
 
-![Kermit None of My Business Meme](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/Ashley/Bootcamp/01-HTML-Git-CSS/02-Challenge/Develop/assets/images/none-of-my-biz-meme.jpg?version%3D1669315189383)
+To achieve this, I first added alt tags to all the images, and decided to move one image from CSS to the html doc so that I could add an alt tag to it. I tried to make some of the div tags in the html document semantic, to help make its structure less confusing.
 
-So, I added alt tags to all the images, and decided to move one image from CSS to the html doc so that I could add an alt tag to it. I get that we're learning to do more in CSS, but I wouldn't want anyone using a screen reader to *not* hear about the stock image of 4 coworkers pretending to know what they're doing... how relatable. Given the many div tags, I did not know how to refactor the html. 
+The second thing I tackled was the CSS file. First, I reordered it to compliment the html doc. Conveniently, several of the header sections, as well as the image sections, had identical attributes. I therefore combined them via a CSS Selectors List. Delightfully concise. As satisfying as this was, I am not sure if I completely defactored the CSS and HTML documents. tbd.
 
-![screenshot-of-work-alt-text](image url)
+As you can see from the screen snips below, the website integrity is maintained:
 
-The second thing I tackled was the CSS file. First, I reordered it to compliment the html doc. Conveniently, several of the header sections, as well as the image sections, had identical attributes. I therefore combined them via a CSS Selectors List. Delightfully concise. As satisfying as this was, once again, I am not sure if I completely defactored the CSS document. 
+![Screenshot of Horiseon webpage](01-HTML-Git-CSS\02-Challenge\Develop\assets\images\Horiseon-snip-1.jpg)
+
+![Screenshot of Horiseon webpage](01-HTML-Git-CSS\02-Challenge\Develop\assets\images\Horiseon-snip-2.jpg)
 
 ## Acceptance Criteria 
 
-Is the code cleaner? Maybe. It is shorter. Kindof... I did add a few meta tags to the header of the html document for SEO purposes (refer to Kermit meme above). Regarding the rest of the acceptance criteria for this challenge, 
+Is the code cleaner? Maybe. It is shorter. Kind-of... I did add a few meta tags to the header of the html document for SEO purposes. Regarding the rest of the acceptance criteria for this challenge, 
     - Elements follow a logical structure independent of styling and positioning, yes
     - Icon and image elements have alt attributes, yes
     - Heading attributes fall in sequential order, yes
     - Title element is concise and descriptive, yes
 
-## Review
-
-You are required to submit the following for review:
-
-- The URL of the deployed application: http://127.0.0.1:5500/01-HTML-Git-CSS/02-Challenge/Develop/index.html
-
-- The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project: https://github.com/acst52/01-Challenge-Accessibility
+## Thanks for reading!
