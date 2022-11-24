@@ -14,12 +14,9 @@ To achieve this, I first added alt tags to all the images, and decided to move o
 
 The second thing I tackled was the CSS file. First, I reordered it to compliment the html doc. Conveniently, several of the header sections, as well as the image sections, had identical attributes. I therefore combined them via a CSS Selectors List. Delightfully concise. As satisfying as this was, I am not sure if I completely defactored the CSS and HTML documents. tbd.
 
-As you can see from the screen snips below, the website integrity is maintained:
+As you can see from the screen snip below, compared to my deployed website ([here](https://acst52.github.io/01-Challenge-Accessibility/)), the website integrity is maintained:
 
-![Horiseon-snip-1](https://user-images.githubusercontent.com/116177485/203861795-1f6b0929-9cba-43c0-9b19-821fcb1ea4b3.jpg)
-![Horiseon-snip-2](https://user-images.githubusercontent.com/116177485/203861834-d46e0f35-4b87-4822-910f-19c9dccddb85.jpg)
-
-You can compare it to my deployed website link, which is [here](https://acst52.github.io/01-Challenge-Accessibility/) :)
+![01-html-css-git-homework-demo](https://user-images.githubusercontent.com/116177485/203873553-a3674761-e773-4b0d-a931-00056456389f.png)
 
 ## Acceptance Criteria 
 
